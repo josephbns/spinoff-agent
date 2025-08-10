@@ -10,9 +10,15 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  id-token: write
 
 jobs:
   run:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     if: >-
       (github.event_name == 'issue_comment' &&
        contains(github.event.comment.body, '@claude')) ||
