@@ -1,0 +1,4 @@
+Company,Criterion,Score,Confidence,Rationale
+Example SpinCo,Debt Loading,4.0,0.75,Net leverage 3.2x; FCF/NetDebt approx 22% -> deleveraging plausible.
+Example SpinCo,Index Exclusion,5.0,0.7,Likely excluded from major indices at spin; thin ADV increases forced selling risk.
+Example SpinCo,Equity Incentives,4.0,0.8,Mgmt owns approx 2.1% with performance equity.
